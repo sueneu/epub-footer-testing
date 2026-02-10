@@ -1,0 +1,52 @@
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+ol {
+    list-style-type: none;
+}
+body{
+line-height: 1.3;
+}
+
+.footnote-section{
+margin-top: 5%;
+border-top: solid thin black;
+}
+
+.eprdctn-note {
+padding: 5%;
+color: purple;
+border-top: thin dotted #898989;
+border-bottom: thin dotted #898989;
+}
+
+.eprdctn-note::before {
+  content: "NOTE: ";
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+code {background: #efefef;
+font-family: 'Consolas', 'Lucida Console', monospace;
+}
+
+.back-arrow {
+text-decoration: none;
+margin-left: .7em;
+}
+
+ul.no-bull {
+list-style-type: none;
+margin:0;
+padding: 0;
+}
+a[role~='doc-noteref'].daisy {
+   vertical-align: super;
+   line-height: normal;
+   font-size: smaller;
+}
