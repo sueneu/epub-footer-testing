@@ -45,8 +45,13 @@ list-style-type: none;
 margin:0;
 padding: 0;
 }
+/*style name added to separate daisy recommendations from other reading system methods during testing and would not normally be necessary*/
 a[role~='doc-noteref'].daisy {
    vertical-align: super;
    line-height: normal;
    font-size: smaller;
 }
+
+dt {
+font-weight: bold;
+margin-top: 8px;}

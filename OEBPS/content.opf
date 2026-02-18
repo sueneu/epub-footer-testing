@@ -3,7 +3,7 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:language>en</dc:language>
     <dc:title>Epub Notes Test</dc:title>
-    <meta property="dcterms:modified">2026-02-04T14:42:20Z</meta>
+    <meta property="dcterms:modified">2026-02-18T11:46:24Z</meta>
     <dc:identifier id="BookId">urn:uuid:2bc53870-15e7-4269-9a9d-eb8e42af6880</dc:identifier>
     <meta name="Sigil version" content="2.7.0"/>
     <meta name="cover" content="cover.jpg"/>
@@ -13,21 +13,25 @@
     <item id="sgc-nav.css" href="Styles/custom.css" media-type="text/css"/>
     <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="Section0003.xhtml" href="Text/section02.xhtml" media-type="application/xhtml+xml"/>
-    <item id="Section0005.xhtml" href="Text/popup-notes-source.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x8f47c372-3de7-4e18-a5ec-9235125abeec" href="Text/popup-notes-vendors-test.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0008.xhtml" href="Text/hyperlinked-endnote-source.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0004.xhtml" href="Text/hyperlinked-notes-source.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0002.xhtml" href="Text/endnotes.xhtml" media-type="application/xhtml+xml"/>
     <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="Section0001.xhtml" href="Text/Intro.xhtml" media-type="application/xhtml+xml"/>
-    <item id="Section0007.xhtml" href="Text/section01.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0006.xhtml" href="Text/about.xhtml" media-type="application/xhtml+xml"/>
+    <item id="popup-notes-source.xhtml" href="Text/popup-notes-source.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x2bc863d1-5227-4a62-b6b8-49a9f077afaa" href="Text/popup-notes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x03d281f5-2090-49eb-b046-460c22a3d549" href="Text/section01.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover.xhtml"/>
     <itemref idref="Section0001.xhtml"/>
-    <itemref idref="Section0007.xhtml"/>
-    <itemref idref="Section0005.xhtml"/>
+    <itemref idref="popup-notes-source.xhtml"/>
+    <itemref idref="x2bc863d1-5227-4a62-b6b8-49a9f077afaa"/>
+    <itemref idref="x03d281f5-2090-49eb-b046-460c22a3d549"/>
+    <itemref idref="x8f47c372-3de7-4e18-a5ec-9235125abeec"/>
     <itemref idref="Section0004.xhtml"/>
     <itemref idref="Section0008.xhtml"/>
     <itemref idref="Section0003.xhtml"/>
