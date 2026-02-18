@@ -5,12 +5,24 @@ nav#landmarks {
 nav#page-list {
     display:none;
 }
+h2{
+hyphens: none;
+}
+.sec-head {
+padding: 5%;
+}
 
 ol {
     list-style-type: none;
 }
 body{
 line-height: 1.3;
+}
+
+.fnanchor {
+	vertical-align: super;
+   line-height: normal;
+   font-size: smaller;
 }
 
 .footnote-section{
@@ -21,8 +33,8 @@ border-top: solid thin black;
 .eprdctn-note {
 padding: 5%;
 color: purple;
-border-top: thin dotted #898989;
-border-bottom: thin dotted #898989;
+border-top: thin #898989;
+border-bottom: thin #898989;
 }
 
 .eprdctn-note::before {
@@ -42,10 +54,10 @@ margin-left: .7em;
 
 ul.no-bull {
 list-style-type: none;
-margin:0;
+margin:10 0;
 padding: 0;
 }
-/*style name added to separate daisy recommendations from other reading system methods during testing and would not normally be necessary*/
+/*style name added to separate daisy recommendations from other reading system methods during testing*/
 a[role~='doc-noteref'].daisy {
    vertical-align: super;
    line-height: normal;
@@ -54,4 +66,5 @@ a[role~='doc-noteref'].daisy {
 
 dt {
 font-weight: bold;
-margin-top: 8px;}
+margin-top: 8px;
+}
