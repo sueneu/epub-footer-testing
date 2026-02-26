@@ -3,7 +3,7 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:language>en</dc:language>
     <dc:title>Epub Notes Test</dc:title>
-    <meta property="dcterms:modified">2026-02-19T17:05:49Z</meta>
+    <meta property="dcterms:modified">2026-02-23T17:23:30Z</meta>
     <dc:identifier id="BookId">urn:uuid:2bc53870-15e7-4269-9a9d-eb8e42af6880</dc:identifier>
     <meta name="Sigil version" content="2.7.0"/>
     <meta name="cover" content="cover.jpg"/>
@@ -25,13 +25,13 @@
     <item id="x2bc863d1-5227-4a62-b6b8-49a9f077afaa" href="Text/popup-notes.xhtml" media-type="application/xhtml+xml"/>
     <item id="x03d281f5-2090-49eb-b046-460c22a3d549" href="Text/section02.xhtml" media-type="application/xhtml+xml"/>
     <item id="x7bc73a1d-d097-497e-b98c-642dacf09bd3" href="Text/Section03.xhtml" media-type="application/xhtml+xml"/>
-    <item id="x263a548f-80bd-4c2a-ac35-89b293195c61" href="Text/Section01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x6fda56b5-12d8-49a0-8eab-8075f4695305" href="Text/section01.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover.xhtml"/>
     <itemref idref="Section0001.xhtml"/>
-    <itemref idref="x263a548f-80bd-4c2a-ac35-89b293195c61"/>
     <itemref idref="popup-notes-source.xhtml"/>
+    <itemref idref="x6fda56b5-12d8-49a0-8eab-8075f4695305"/>
     <itemref idref="x2bc863d1-5227-4a62-b6b8-49a9f077afaa"/>
     <itemref idref="x03d281f5-2090-49eb-b046-460c22a3d549"/>
     <itemref idref="x8f47c372-3de7-4e18-a5ec-9235125abeec"/>
